@@ -3,19 +3,9 @@ train: images/train
 val: images/val
 test: images/test
 names:
-  0: l_klt_4147
-  1: l_klt_8210
-  2: pallet
-  3: str
-  4: cabinet
-  5: locker
-  6: jack
-  7: dolly
-  8: spring_post
-  9: exit_sign
-  10: fire_extinguisher
-  11: stillage_open
-  12: stillage_close
-  13: cardboard_box
-  14: forklift
-  15: bicycle
+  0: rack_1
+  1: klt_box_full
+  2: klt_box_empty
+  3: rack_2
+  4: rack_3
+  5: rack_4
