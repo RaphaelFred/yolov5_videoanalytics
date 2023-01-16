@@ -138,8 +138,10 @@ for folder in folders:
             all_classes_set.append(objname)
     files = os.listdir(os.path.join(folder, 'images'))
     for f in files:
+
         b = time.time()
         p_img = os.path.join(folder, 'images', f)
+        print("Image Path: ", p_img)
         p = os.path.join(folder, 'labels', 'json', f.replace('jpg', 'json'))
         fileindex += 1
         #if not os.path.exists(os.path.join(dataset_imgs_train_p, str(fileindex) + '.jpg')):
