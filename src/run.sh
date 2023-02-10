@@ -1,5 +1,6 @@
 echo "Running..."
 #cp -r tmp /usr/src/app
+
 cp sordi.yaml /usr/src/app
 cp prep.py /usr/src/app
 
